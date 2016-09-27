@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FAVES</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <div class= "container">
+      <h3>Tell us your favorite thing in each of the categories below:</h3>
+      <div id="blanks">
+        <form id="user-input">
+          <div class="form-group">
+            <label for="color-answer">Favorite Color</label>
+            <input id="color-answer" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="movie-answer">Favorite Movie</label>
+            <input id="movie-answer" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="tv-answer">Favorite TV Show</label>
+            <input id="tv-answer" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">submit</button>
+        </form>
+
+        <div id= "user-faves">
+          <h3>These are your faves:</h3>
+          <ul>
+            <li id="output"></li>
+            <li id="output1"></li>
+            <li id="output2"></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+
+
+</html>
